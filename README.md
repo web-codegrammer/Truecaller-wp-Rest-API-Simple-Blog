@@ -7,7 +7,7 @@ Fetches Data from ```Truecaller Blog``` (https://truecaller.blog) using ```Wordp
 ### [Live Site](https://web-codegrammer-truecaller-blog.netlify.app/)
 
 
-![Truecaller 1](https://i.imgur.com/tSUlWzs.jpg)
+![Truecaller 1](https://github.com/web-codegrammer/Truecaller-wp-Rest-API-Simple-Blog/blob/main/blog-min.png)
 
 
 ## Available Scripts
