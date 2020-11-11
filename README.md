@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is the Simple Truecaller blog whose Front end was built using Wordpress Rest API , React.js & React Hooks in Typescript. Backend Handled by Express.js
+
+Fetches Data from ## [truecaller.blog] using ### `Wordpress Rest API`.
+
+### [Live Site](https://web-codegrammer-truecaller-blog.netlify.app/)
+
+![Truecaller Blog](https://i.imgur.com/3RJRGuY.jpeg)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -27,6 +36,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## License 
 
-[MIT](https://github.com/web-codegrammer/Real-Time-Chat-App/blob/master/LICENSE)
+[MIT](https://github.com/web-codegrammer/Truecaller-wp-Rest-API-Simple-Blog/blob/main/LICENSE)
 
 Issued to ```Devanshu Vashishtha``` | All Rights Reserved | 2020
