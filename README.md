@@ -40,4 +40,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 [MIT](https://github.com/web-codegrammer/Truecaller-wp-Rest-API-Simple-Blog/blob/main/LICENSE)
 
-Issued to ```Devanshu Vashishtha``` | All Rights Reserved | 2020
+Issued to ```Devanshu Vashishtha``` | All Rights Reserved |©️ 2020
