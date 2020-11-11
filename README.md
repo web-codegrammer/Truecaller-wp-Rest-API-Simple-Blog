@@ -2,11 +2,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is the Simple Truecaller blog whose Front end was built using Wordpress Rest API , React.js & React Hooks in Typescript. Backend Handled by Express.js
 
-Fetches Data from ## [truecaller.blog] using ### `Wordpress Rest API`.
+Fetches Data from ```truecaller.blog``` [https://truecaller.blog] using `Wordpress Rest API`.
 
 ### [Live Site](https://web-codegrammer-truecaller-blog.netlify.app/)
 
-![Truecaller Blog](https://i.imgur.com/3RJRGuY.jpeg)
+Image 1                     |  Image 2
+:-------------------------:|:-------------------------:
+
+![Truecaller 1](https://i.imgur.com/tSUlWzs.jpg)  |  ![Truecaller 2](https://i.imgur.com/eScl80s.jpg)
 
 
 ## Available Scripts
