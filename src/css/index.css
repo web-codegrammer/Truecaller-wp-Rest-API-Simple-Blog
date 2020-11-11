@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(0, 0, 0, 0.87);
+}
+h1,
+p {
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.main-container {
+  margin-right: 70px;
+  flex: 7;
+}
+.side-container {
+  flex: 4;
+  text-transform: uppercase;
+}
+.post-thumbnail {
+  width: 100%;
+  height: auto;
+}
+.post-title {
+  color: #2b2b2b;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 38px;
+  margin: 15px 0;
+}
+.post-title:hover {
+  color: #0b6ba6;
+}
+.feeds-container {
+  width: 70%;
+  float: right;
+}
+.feeds-container h4 {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.header-image-container img {
+  width: 100%;
+  height: 250px;
+}
+.header-title {
+  background-color: rgba(0, 0, 0, 0.87);
+  color: white;
+  padding: 20px 40px;
+  font-style: italic;
+}
+.categories-container {
+  margin-top: 75px;
+}
+.side-container h2 {
+  margin-bottom: 15px;
+}
+.top-tags-container,
+.categories-container {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+}
+.side-container p {
+  padding-left: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-left: 5px solid rgba(0, 0, 0, 0.87);
+  font-weight: 600;
+}
+.side-container p:hover {
+  color: #0b6ba6;
+}
+.site-title span {
+  cursor: pointer;
+}
+.content-section img {
+  max-width: 100%;
+}
+.site-footer {
+  margin-top: 175px;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.blog-feed-navigation {
+  margin-bottom: 75px;
+}
+.blog-feed-navigation img,
+.blog-feed-navigation h2,
+.blog-feed-navigation .content-section,
+.blog-feed-navigation footer {
+  cursor: pointer;
+}
+.click-continue {
+  cursor: pointer;
+  float: right;
+  margin-right: 25px;
+  margin-top: 15px;
+  color: #0b6ba6;
+  font-size: 14px;
+}
+.article-content .post-title,
+.article-content .content-section {
+  width: 80%;
+}
+.article-category-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.article-category {
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 15px;
+  padding-left: 10px;
+  border-left: 5px solid rgba(0, 0, 0, 0.87);
+}
+.post-meta-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: #767676;
+  font-size: 14px;
+  font-weight: 400;
+}
+.post-meta {
+  margin-right: 25px;
+  cursor: pointer;
+}
+.article-tag {
+  font-size: 10px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  border: 1px solid #90a4ae;
+  color: #90a4ae;
+  line-height: 14px;
+  margin-right: 15px;
+  margin-top: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.blog-feed-navigation .article-tag {
+  margin-top: 5px;
+}
+.view-more-btn-container button {
+  float: right;
+  background-color: #0091ea;
+  border: none;
+  line-height: inherit;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: 600;
+  width: 120px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+  .header-image-container img {
+    height: 150px;
+  }
+  .main-container {
+    margin: 0 0 35px 0;
+  }
+  .feeds-container {
+    width: 100%;
+  }
+  .side-container {
+    border-top: 5px solid rgba(0, 0, 0, 0.87);
+  }
+  .categories-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .site-footer {
+    margin-top: 25px;
+    background-color: #2b323f;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    position: relative;
+  }
+  .article-content .post-title,
+  .article-content .content-section,
+  .post-meta-container {
+    margin: 15px;
+  }
+  .article-category-wrapper {
+    margin: 15px 15px 15px;
+  }
+  .header-title {
+    padding: 20px 0 20px 20px;
+  }
+  .click-continue {
+    margin-top: 0;
+  }
+  .view-more-btn-container button {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
