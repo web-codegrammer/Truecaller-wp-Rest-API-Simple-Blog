@@ -6,10 +6,8 @@ Fetches Data from ```truecaller.blog``` [https://truecaller.blog] using `Wordpre
 
 ### [Live Site](https://web-codegrammer-truecaller-blog.netlify.app/)
 
-Image 1                     |  Image 2
-:-------------------------:|:-------------------------:
 
-![Truecaller 1](https://i.imgur.com/tSUlWzs.jpg)  |  ![Truecaller 2](https://i.imgur.com/eScl80s.jpg)
+![Truecaller 1](https://i.imgur.com/tSUlWzs.jpg)
 
 
 ## Available Scripts
