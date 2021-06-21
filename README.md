@@ -1,5 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/28d26d2a-2edc-42eb-b130-b8715cf99c24/deploy-status)](https://app.netlify.com/sites/web-codegrammer-truecaller-blog/deploys)
-[![Web-Codegrammer grade](https://deepscan.io/api/teams/10012/projects/12688/branches/199327/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=10012&pid=12688&bid=199327)
+[![Web-Codegrammer grade](https://deepscan.io/api/teams/10012/projects/12688/branches/199327/badge/grade.svg)]
 
 This is the Simple Truecaller blog whose Front end was built using Wordpress Rest API , React.js & React Hooks in Typescript. Backend Handled by Express.js
 
